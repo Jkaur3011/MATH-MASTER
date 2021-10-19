@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MATH QUIZ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut - icon" href="image-removebg-preview (31).png">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+    <body>
+
+      <div class="container">
+
+        <h5 id="p1NAME"></h5>
+        <span id="p1SCORE"></span> <br>
+        <h5 id="p2NAME"></h5>
+        <span id="p2SCORE"></span>
+
+    
+        <center>
+            
+            <h2 style="color: bisque; font-size:x-large;"> MATH QUIZ </h2>
+
+            <h3 id="qt"></h3>
+            <h3 id="at"></h3>
+
+            <div id="question-answer"></div> <br> <br>
+
+            <span class="wrapper fadeInDown">
+                <span id="formContent">
+                 <!--Number 1-->
+                  <h2 class="active"> Number 1 </h2>
+                  
+                  <form>
+                    <input type="text" id="no.1" class="fadeIn second" placeholder="Enter the First Number">
+                    
+                    
+                  </form> </span>
+
+                  <span class="wrapper fadeInDown">
+                    <span id="formContent">
+                     <!--Number 2-->
+                      <h2 class="active"> Number 2 </h2>
+                      
+                      <form>
+                        <input type="text" id="no.2" class="fadeIn second" placeholder="Enter the Second Number">
+                        
+                        
+                      </form> </span> <br> <br>
+                      <input id="send_numbers" type="submit" class="fadeIn fourth" value="Give the Question" onclick="give_question()">
+            
+        </center>
+    </div>
+
+    <script src="gamepage_math.js"></script>
+    <script src="main.js"></script>
+    </body>
+</html>
